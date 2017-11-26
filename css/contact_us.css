@@ -1,0 +1,200 @@
+
+body,h1,h2,h3,h4,h5,h6,p{
+  margin: 0 auto
+}
+.contact {
+  overflow: hidden;
+  background: #eeeeee;
+}
+.company_header {
+  background: transparent none repeat scroll 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 45;
+}
+.header-wrap {
+  background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
+  border: 1px solid #f2f2f2;
+  box-shadow: 2px 3px 15px #555;
+  height: 60px;
+}
+.header_left {
+  position: absolute;
+}
+
+.header_middle {
+  background: rgb(0, 143, 184) none repeat scroll 0 0;
+  border-radius: 3px;
+  height: 35px;
+  left: 190px;
+  line-height: 35px;
+  padding: 0 20px;
+  position: absolute;
+  text-decoration: none;
+  top: 13px;
+  width: 80px;
+}
+.header_middle > a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.header_middle:hover {
+  box-shadow: 2px 5px 15px grey;
+  text-decoration: none;
+}
+.site_image {
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  height: 69px;
+  margin-top: -10px;
+  width: 150px;
+}
+.R_u_AT_risk {
+  background: rgb(0, 143, 184) none repeat scroll 0 0;
+  border: 1px solid;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+  padding: 12px 43px;
+  text-transform: capitalize;
+}
+.R_u_AT_risk:hover {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.header_right {
+  position: absolute;
+  right: -35px;
+  top: 16px;
+}
+.contact_us {
+  overflow-x: hidden;
+  padding-top: 90px;
+  width: 100%;
+  padding-left: 60px;
+}
+.contact_us > h2 {
+  color: #444;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+span {
+  color: #008fb8;
+  font-size: 45px;
+}
+.form input {
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bolder;
+  margin: 10px 0;
+  padding: 10px;
+  text-transform: capitalize;
+  width: 350px;
+}
+.message {
+  padding-top: 10px;
+}
+textarea {
+  border: 1px solid;
+  color: #222;
+  font-size: 25px;
+  height: 225px;
+  padding-left: 10px;
+  text-transform: capitalize;
+  width: 300px;
+}
+textarea:hover {
+  box-shadow: 2px 3px 10px #008fb8;
+  color: #008fb8;
+}
+.form input:hover {
+  box-shadow: 2px 3px 10px #008fb8;
+  color: #008fb8;
+}
+.message > input {
+  background: #008fb8 none repeat scroll 0 0;
+  border: 1px solid #008fb8;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  height: 30px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+.our_contact {
+  padding: 70px 0;
+  width: 100%;
+}
+.address {
+    font-size: 36px;
+    padding: 0 70px;
+}
+.address {
+}
+.phone_nimber {
+    font-size: 35px;
+    padding: 20px 70px;
+}
+.fax_number {
+    font-size: 35px;
+    padding: 0 70px;
+}
+.fa {
+    border-radius: 3px;
+    color: #fff;
+    float: left;
+    font-size: 30px;
+    margin-right: 52px;
+    padding: 50px;
+}
+.fa.fa-facebook {
+    background: #3c56a2 none repeat scroll 0 0;
+}
+.fa.fa-facebook:hover {
+    box-shadow: 2px 3px 10px #3c56a2;
+}
+.fa.fa-google {
+    background: #e84230 none repeat scroll 0 0;
+}
+.fa.fa-google:hover {
+    box-shadow: 2px 3px 10px #e84230;
+}
+.fa.fa-linkedin {
+    background: #1670ba none repeat scroll 0 0;
+}
+.fa.fa-linkedin:hover {
+    box-shadow: 2px 3px 10px #1670ba;
+}
+footer {
+  background: #222 none repeat scroll 0 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+.footer h1 {
+  color: #fff;
+  padding-bottom: 30px;
+  text-transform: capitalize;
+}
+.footer.container {
+  text-align: center;
+}
+footer > .row {
+  padding-top: 50px;
+}
+.products > h3 {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.About_us > p {
+  color: #fff;
+}
+.footer a {
+  text-decoration: none;
+}
